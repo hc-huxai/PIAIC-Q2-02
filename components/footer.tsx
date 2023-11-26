@@ -1,6 +1,21 @@
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin, FaHeart } from "react-icons/fa6";
+"use client";
+
+import { useEffect, useState } from "react";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedin,
+  FaHeart,
+} from "react-icons/fa6";
 
 export const Footer = () => {
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => setIsMounted(true), []);
+
+  if (!isMounted) return null;
+
   return (
     <section className="footer">
       <hr />
@@ -14,7 +29,9 @@ export const Footer = () => {
 
       <div className="icons">
         <FaFacebook className="fab fa-facebook-f" />
+        {/* <Facebook className="fab" /> */}
         <FaInstagram className="fab fa-instagram" />
+        {/* <Instagram className='fab' /> */}
         <FaTwitter className="fab fa-twitter" />
         <FaLinkedin className="fab fa-linkedin" />
       </div>
@@ -27,4 +44,4 @@ export const Footer = () => {
       </p>
     </section>
   );
-}
+};

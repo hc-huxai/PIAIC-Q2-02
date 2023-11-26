@@ -1,5 +1,4 @@
-import Image from "next/image";
-import { imgRef } from "@/public/img/references";
+
 import { MainNav } from "@/components/main-nav";
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 import { Footer } from "@/components/footer";
@@ -79,19 +78,19 @@ export default function Home() {
 
         <div className="row">
           <div className="campus-col">
-            <Image src={imgRef.Campus1} alt="Campus1" />
+            <img src="/img/Campus1.png" alt="" loading="lazy" />
             <div className="layer">
               <h3>DELHI</h3>
             </div>
           </div>
           <div className="campus-col">
-            <Image src={imgRef.Campus2} alt="Campus2" />
+            <img src="/img/Campus2.png" alt="" loading="lazy" />
             <div className="layer">
               <h3>HYDERABAD</h3>
             </div>
           </div>
           <div className="campus-col">
-            <Image src={imgRef.Campus3} alt="Campus3" />
+            <img src="/img/Campus3.png" alt="" loading="lazy" />
             <div className="layer">
               <h3>MUMBAI</h3>
             </div>
@@ -111,7 +110,7 @@ export default function Home() {
 
         <div className="row">
           <div className="facilities-col">
-            <Image src={imgRef.Library} alt="Library" />
+            <img src="/img/library.png" alt="Library" loading="lazy" />
             <h3>Best Library</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -119,7 +118,7 @@ export default function Home() {
             </p>
           </div>
           <div className="facilities-col">
-            <Image src={imgRef.Playground} alt="Playground" />
+            <img src="/img/playground.png" alt="Playground" loading="lazy" />
             <h3>Athletics</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -127,7 +126,7 @@ export default function Home() {
             </p>
           </div>
           <div className="facilities-col">
-            <Image src={imgRef.Food} alt="Food" />
+            <img src="/img/food.png" alt="Food" loading="lazy" />
             <h3>Tasty and Healthy Food</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -149,7 +148,7 @@ export default function Home() {
 
         <div className="row">
           <div className="testimonials-col">
-            <Image src={imgRef.User} alt="User" />
+            <img src="/img/user.png" alt="User" />
             <div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
@@ -166,8 +165,7 @@ export default function Home() {
             </div>
           </div>
           <div className="testimonials-col">
-            <Image src={imgRef.User} alt="User" />
-
+            <img src="/img/user.png" alt="User" />
             <div>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi

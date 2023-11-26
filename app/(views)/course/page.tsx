@@ -59,7 +59,7 @@ export default function CoursePage() {
 
         <div className="row">
           <div className="facilities-col">
-            <Image src={imgRef.Course1} alt="Course1" />
+            <img src="/img/course1.png" loading="lazy" alt="Course1" />
             <h3>Web Development</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -67,7 +67,7 @@ export default function CoursePage() {
             </p>
           </div>
           <div className="facilities-col">
-            <Image src={imgRef.Course2} alt="Course2" />
+            <img src="/img/course2.png" loading="lazy" alt="Course2" />
             <h3>Artificial Intelligence</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -75,7 +75,7 @@ export default function CoursePage() {
             </p>
           </div>
           <div className="facilities-col">
-            <Image src={imgRef.Course3} alt="Course3" />
+            <img src="/img/course3.png" loading="lazy" alt="Course3" />
             <h3>Data Science</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

@@ -1,7 +1,6 @@
+
 import { Footer } from "@/components/footer";
 import { MainNav } from "@/components/main-nav";
-import { imgRef } from "@/public/img/references";
-import Image from "next/image";
 
 export default function AboutPage() {
   return (
@@ -30,7 +29,7 @@ export default function AboutPage() {
             </a>
           </div>
           <div className="about-col">
-            <Image src={imgRef.About} alt="About" />
+            <img src="/img/about.png" alt="About" loading="lazy" />
           </div>
         </div>
       </section>
