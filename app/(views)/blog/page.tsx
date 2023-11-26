@@ -1,6 +1,6 @@
 import { Footer } from "@/components/footer"
 import { MainNav } from "@/components/main-nav"
-import { imgRef } from "@/img/references"
+import { imgRef } from "@/public/img/references"
 import Image from "next/image"
 
 export default function BlogPage() {

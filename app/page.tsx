@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { imgRef } from "@/img/references";
+import { imgRef } from "@/public/img/references";
 import { MainNav } from "@/components/main-nav";
 import { FaStar, FaStarHalf } from "react-icons/fa6";
 import { Footer } from "@/components/footer";
